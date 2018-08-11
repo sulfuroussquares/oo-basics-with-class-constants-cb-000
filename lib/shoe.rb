@@ -6,7 +6,7 @@ class Shoe
     @brand = brand
     if (BRANDS.include?(brand))
       BRANDS << brand
-    end if
+    end 
 
   end
 #a.include?("b")   #=> true
