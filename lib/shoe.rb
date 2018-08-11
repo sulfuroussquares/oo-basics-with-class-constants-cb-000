@@ -3,9 +3,14 @@ class Shoe
   attr_reader :brand
 
   BRANDS = []
+  
   def initialize(brand)
     @brand = brand
-    !BRANDS.include?(brand) ? BRANDS << brand : BRANDS
+    if (BRANDS.include?(brand))
+      BRANDS << brand
+    end
+    BRANDS
+    #!BRANDS.include?(brand) ? BRANDS << brand : BRANDS
     #BRANDS << brand
 
   end
