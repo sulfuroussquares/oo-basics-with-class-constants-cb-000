@@ -9,7 +9,6 @@ class Shoe
     end 
 
   end
-#a.include?("b")   #=> true
   BRANDS = []
 
 
