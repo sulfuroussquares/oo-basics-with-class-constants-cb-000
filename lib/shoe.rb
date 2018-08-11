@@ -6,8 +6,8 @@ class Shoe
     @brand = brand
     if (BRANDS.include?(brand))
       BRANDS << brand
-    endif
-    
+    end if
+
   end
 #a.include?("b")   #=> true
   BRANDS = []
