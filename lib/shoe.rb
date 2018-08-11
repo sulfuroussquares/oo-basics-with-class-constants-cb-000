@@ -6,7 +6,7 @@ class Shoe
     @brand = brand
     #!BRANDS.include?(brand) ? BRANDS << brand : BRANDS
     BRANDS << brand
-    end
+
 
   end
   BRANDS = []
